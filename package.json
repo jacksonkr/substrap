@@ -1,0 +1,24 @@
+{
+  "name": "substrap",
+  "version": "0.0.1",
+  "description": "a bootstrap-like construct for within individual divs",
+  "main": "Substrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonkr/substrap.git"
+  },
+  "keywords": [
+    "css",
+    "javascript",
+    "ui"
+  ],
+  "author": "Jackson Rollins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksonkr/substrap/issues"
+  },
+  "homepage": "https://github.com/jacksonkr/substrap#readme"
+}
