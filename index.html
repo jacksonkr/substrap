@@ -1,15 +1,40 @@
 <html>
 
 <style>
+    .substrap-xs {
+        font-size:8px;
+    }
+    .substrap-sm {
+        font-size:12px;
+    }
+    .substrap-md {
+        font-size:18px;
+    }
+    .substrap-lg {
+        font-size:22px;
+    }
+    .substrap-xl {
+        font-size:32px;
+    }
 </style>
 
-<script>
+<script type="module">
+    import Substrap from './Substrap.js'
+
+    window.onload = function () {
+        Substrap.watch('sample');
+        Substrap.watch('custom', [100, 200, 300, 400]);
+    }
 </script>
 
 
 <body>
 
-    <div>
+    <div id="sample">
+        This is the sample div
+    </div>
+    <div id="custom">
+        This is the custom div
     </div>
 
 </body>
